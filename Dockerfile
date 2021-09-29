@@ -1,4 +1,4 @@
-FROM  ubuntu:18.04
+FROM amazonlinux
 RUN yum update -y && yum install git -y && yum install unzip -y
 WORKDIR /opt
 RUN yum install python3-pip -y
